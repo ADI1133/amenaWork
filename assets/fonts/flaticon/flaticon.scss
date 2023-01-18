@@ -1,0 +1,161 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0c16f128ca13caba98e50287981a3c6c") format("truetype"),
+url("./flaticon.woff?0c16f128ca13caba98e50287981a3c6c") format("woff"),
+url("./flaticon.woff2?0c16f128ca13caba98e50287981a3c6c") format("woff2"),
+url("./flaticon.eot?0c16f128ca13caba98e50287981a3c6c#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0c16f128ca13caba98e50287981a3c6c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "pilot": "\f101",
+    "helicopter": "\f102",
+    "stewardess": "\f103",
+    "control-tower": "\f104",
+    "runway": "\f105",
+    "seatbelt": "\f106",
+    "airplane-stairs": "\f107",
+    "helicopter-1": "\f108",
+    "ticket-machine": "\f109",
+    "trolley": "\f10a",
+    "route": "\f10b",
+    "airport": "\f10c",
+    "helm": "\f10d",
+    "cctv": "\f10e",
+    "inspection": "\f10f",
+    "take-off": "\f110",
+    "seat": "\f111",
+    "seat-1": "\f112",
+    "ticket": "\f113",
+    "tower": "\f114",
+    "landing": "\f115",
+    "seat-2": "\f116",
+    "coffee": "\f117",
+    "coffee-1": "\f118",
+    "pancake": "\f119",
+    "soup": "\f11a",
+    "cake": "\f11b",
+    "spaguetti": "\f11c",
+    "wine": "\f11d",
+    "pizza": "\f11e",
+    "beer": "\f11f",
+    "call": "\f120",
+    "email": "\f121",
+    "location": "\f122",
+);
+
+.flaticon-pilot:before {
+    content: map-get($flaticon-map, "pilot");
+}
+.flaticon-helicopter:before {
+    content: map-get($flaticon-map, "helicopter");
+}
+.flaticon-stewardess:before {
+    content: map-get($flaticon-map, "stewardess");
+}
+.flaticon-control-tower:before {
+    content: map-get($flaticon-map, "control-tower");
+}
+.flaticon-runway:before {
+    content: map-get($flaticon-map, "runway");
+}
+.flaticon-seatbelt:before {
+    content: map-get($flaticon-map, "seatbelt");
+}
+.flaticon-airplane-stairs:before {
+    content: map-get($flaticon-map, "airplane-stairs");
+}
+.flaticon-helicopter-1:before {
+    content: map-get($flaticon-map, "helicopter-1");
+}
+.flaticon-ticket-machine:before {
+    content: map-get($flaticon-map, "ticket-machine");
+}
+.flaticon-trolley:before {
+    content: map-get($flaticon-map, "trolley");
+}
+.flaticon-route:before {
+    content: map-get($flaticon-map, "route");
+}
+.flaticon-airport:before {
+    content: map-get($flaticon-map, "airport");
+}
+.flaticon-helm:before {
+    content: map-get($flaticon-map, "helm");
+}
+.flaticon-cctv:before {
+    content: map-get($flaticon-map, "cctv");
+}
+.flaticon-inspection:before {
+    content: map-get($flaticon-map, "inspection");
+}
+.flaticon-take-off:before {
+    content: map-get($flaticon-map, "take-off");
+}
+.flaticon-seat:before {
+    content: map-get($flaticon-map, "seat");
+}
+.flaticon-seat-1:before {
+    content: map-get($flaticon-map, "seat-1");
+}
+.flaticon-ticket:before {
+    content: map-get($flaticon-map, "ticket");
+}
+.flaticon-tower:before {
+    content: map-get($flaticon-map, "tower");
+}
+.flaticon-landing:before {
+    content: map-get($flaticon-map, "landing");
+}
+.flaticon-seat-2:before {
+    content: map-get($flaticon-map, "seat-2");
+}
+.flaticon-ticket-machine:before {
+    content: map-get($flaticon-map, "coffee");
+}
+.flaticon-ticket-machine-1:before {
+    content: map-get($flaticon-map, "coffee-1");
+}
+.flaticon-pancake:before {
+    content: map-get($flaticon-map, "pancake");
+}
+.flaticon-soup:before {
+    content: map-get($flaticon-map, "soup");
+}
+.flaticon-cake:before {
+    content: map-get($flaticon-map, "cake");
+}
+.flaticon-spaguetti:before {
+    content: map-get($flaticon-map, "spaguetti");
+}
+.flaticon-wine:before {
+    content: map-get($flaticon-map, "wine");
+}
+.flaticon-pizza:before {
+    content: map-get($flaticon-map, "pizza");
+}
+.flaticon-beer:before {
+    content: map-get($flaticon-map, "beer");
+}
+.flaticon-call:before {
+    content: map-get($flaticon-map, "call");
+}
+.flaticon-email:before {
+    content: map-get($flaticon-map, "email");
+}
+.flaticon-location:before {
+    content: map-get($flaticon-map, "location");
+}
