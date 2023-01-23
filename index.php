@@ -8,6 +8,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> -->
     <title>Travel Services</title>
     <?php include 'includes/head.php'; ?>
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
+/>
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css">   -->
 </head>
 <body>
     <div class="preloader d-flex align-items-center justify-content-center">
@@ -18,22 +24,17 @@
     <!-- #fdb467 -->
     <!-- #272624 -->
     <!--====== HEADER START ======-->
-    <header class="header-absolute header-two sticky-header">
+      <header class="header-absolute header-two sticky-header">
         <div class="container container-custom-one">
             <div class="nav-container d-flex align-items-center justify-content-between">
                 <!-- Main Menu -->
                 <div class="nav-menu d-lg-flex align-items-center">
-
-                    <!-- Navbar Close Icon -->
                     <div class="navbar-close">
                         <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                     </div>
-
-                    <!-- Off canvas Menu  -->
                     <div class="toggle">
                         <a href="#" id="offCanvasBtn"><i class="fal fa-bars"></i></a>
                     </div>
-                    <!-- Mneu Items -->
                     <div class="menu-items">
                         <ul>
                             <li>
@@ -58,28 +59,124 @@
                                     <li><a href="plane-details.html">Real Esates</a></li>
                                 </ul>
                             </li>
-                            
                             <li><a href="contact.html">Activities</a></li>
-                            <!-- <li><a href="contact.html">ACTIVITIES</a></li> -->
-
                         </ul>
                     </div>
-
-                    <!-- from pushed-item -->
                     <div class="nav-pushed-item"></div>
                 </div>
 
                 <!-- Site Logo -->
+
                 <div class="site-logo">
                     <a href="index-2.html" class="main-logo"><img src="assets/img/logo-white.png" alt="Logo"></a>
                     <a href="index-2.html" class="sticky-logo"><img src="assets/img/logo.png" alt="Logo"></a>
                 </div>
+                <style>
+                    header .nav-container .menu-items ul li .fb{
+                        padding: 0px 2px;
+                    }
+                     .languagemenue li a{
+                            line-height: 20px !important;
+                        }
 
-                <!-- Bacground #272624 -->
+                        .languagemenue {
+                            min-width: 50px !important;
+                            /*right: 30px;*/
+                        }
+                        .languagemenue  li{
+                            display: contents !important; 
+                        }
+                </style>
 
-                <!-- Header Info Pussed To Menu Wrap -->
+               <div class="nav-push-item">
+                <div class="header-info d-lg-flex align-items-center">
+                    <div class="nav-menu d-lg-flex align-items-center">
+                        <div class="menu-items">
+                            <ul>
+                                <li><span class="fal fa-phone" style="color: #fff"></span><a href="tel:+971582181568">+971582181568</a></li>
+                                <li><span class="fal fa-envelope" style="color: #fff"></span> <a href="mailto: contact@saphiraservices.com">contact@saphiraservices.com</a></li>
+                                <li><a href="" class="fb"><span class="fab fa-facebook-f"></span></a>
+                                </li>
+                                <li><a href="" class="fb"><span class="fab fa-instagram"></span></a></li>
+                                <li>
+                                    <div class="dropdown">
+                                        <a href="#" class="dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" onclick="OpenDropDown(event)"><i class="fi fi-us fis"></i></a>
+                                        <ul class="dropdown-menu languagemenue" aria-labelledby="dropdownMenuButton1" style="width: 30px; background: #000;">
+                                            <li>
+                                                <a class="dropdown-item" href="#"> <i style="transform: rotate(90deg);" class="fi fi-fr fis"></i></a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item" href="#"><i class="fi fi-us fis"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-pushed-item"></div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="navbar-toggler">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle text-danger" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+    <li><a class="dropdown-item active" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
+
+
+
+ <!--    <header class="header-absolute header-two sticky-header">
+        <div class="container container-custom-one">
+            <div class="nav-container d-flex align-items-center justify-content-between">
+                
+                <div class="nav-menu d-lg-flex align-items-center">
+                    
+                    <div class="navbar-close">
+                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                    </div>
+                    <div class="toggle">
+                        <a href="#" id="offCanvasBtn"><i class="fal fa-bars"></i></a>
+                    </div>
+                    <div class="menu-items">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Abouts Us</a>
+                            </li>
+                            <li>
+                                <a href="plane-grid.html">Services</a>
+                                <ul class="submenu">
+                                    <li><a href="plane-grid.html">Travel Services</a></li>
+                                    <li><a href="plane-list.html">Conciergerie</a></li>
+                                    <li><a href="plane-details.html">Real Esates</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Activities</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-pushed-item"></div>
+                </div>
+                <div class="site-logo">
+                    <a href="index-2.html" class="main-logo"><img src="assets/img/logo-white.png" alt="Logo"></a>
+                    <a href="index-2.html" class="sticky-logo"><img src="assets/img/logo.png" alt="Logo"></a>
+                </div>
                 <div class="nav-push-item">
-                    <!-- Header Info -->
                     <div class="header-info d-lg-flex align-items-center">
                         <div class="item">
                             <i class="fal fa-phone"></i>
@@ -97,14 +194,12 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Navbar Toggler -->
                 <div class="navbar-toggler">
                     <span></span><span></span><span></span>
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
     <!--====== HEADER END ======-->
     <!--====== OFF CANVAS START ======-->
     <div class="offcanvas-wrapper">
@@ -168,8 +263,9 @@
                     <div class="col-lg-8">
                         <div class="banner-content text-center">
                             <span class="promo-tag" data-animation="fadeInDown" data-delay=".6s">
-                                The saphira luxury experience</span>
-                            <h1 class="title" data-animation="fadeInLeft" data-delay=".9s">The Perfect <br> Base For You
+                            <!-- The saphira luxury experience -->
+                        </span>
+                            <h1 class="title" data-animation="fadeInLeft" data-delay=".9s">The ultimate <br> luxury experience
                             </h1>
                             <ul>
                                 <li data-animation="fadeInUp" data-delay="1.1s">
@@ -183,22 +279,22 @@
                     </div>
                 </div>
             </div>
-            <!-- banner bg -->
             <div class="banner-bg" style="background-image: url(assets/img/banner/04.jpg);"></div>
             <div class="banner-overly"></div>
         </div>
-        <div class="single-banner d-flex align-items-center justify-content-center">
+     <!--    <div class="single-banner d-flex align-items-center justify-content-center">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="banner-content text-center">
-                            <span class="promo-tag" data-animation="fadeInDown" data-delay=".6s">The ultimate luxury
-                                experience</span>
-                            <h1 class="title" data-animation="fadeInLeft" data-delay=".9s">The Perfect <br> Base For You
+                            <span class="promo-tag" data-animation="fadeInDown" data-delay=".6s">
+                                 The ultimate luxury experience
+                            </span>
+                            <h1 class="title" data-animation="fadeInLeft" data-delay=".9s">The ultimate <br> luxury experience
                             </h1>
                             <ul>
                                 <li data-animation="fadeInUp" data-delay="1.1s">
-                                    <a class="main-btn btn-filled" href="#">take a tour</a>
+                                    <a class="main-btn btn-filled" href="#">Book Now</a>
                                 </li>
                                 <li data-animation="fadeInUp" data-delay="1.3s">
                                     <a class="main-btn btn-border" href="#">Learn More</a>
@@ -208,22 +304,23 @@
                     </div>
                 </div>
             </div>
-            <!-- banner bg -->
             <div class="banner-bg" style="background-image: url(assets/img/banner/05.jpg);"></div>
             <div class="banner-overly"></div>
-        </div>
+        </div> -->
          <div class="single-banner d-flex align-items-center justify-content-center">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
                         <div class="banner-content text-center">
-                            <span class="promo-tag" data-animation="fadeInDown" data-delay=".6s">The ultimate luxury
-                                experience</span>
-                            <h1 class="title" data-animation="fadeInLeft" data-delay=".9s">The Perfect <br> Base For You
+                            <span class="promo-tag" data-animation="fadeInDown" data-delay=".6s">
+                                <!-- The ultimate luxury experience -->
+                            </span>
+                            <h1 class="title" data-animation="fadeInLeft" data-delay=".9s">The ultimate <br> luxury experience
                             </h1>
+                            <!-- THE ULTIMATE LUXURY EXPERIENCE -->
                             <ul>
                                 <li data-animation="fadeInUp" data-delay="1.1s">
-                                    <a class="main-btn btn-filled" href="#">take a tour</a>
+                                    <a class="main-btn btn-filled" href="#">Book Now</a>
                                 </li>
                                 <li data-animation="fadeInUp" data-delay="1.3s">
                                     <a class="main-btn btn-border" href="#">Learn More</a>
@@ -233,11 +330,10 @@
                     </div>
                 </div>
             </div>
-            <!-- banner bg -->
             <div class="banner-bg" style="background-image: url(assets/img/banner/06.jpg);"></div>
             <div class="banner-overly"></div>
         </div>
-    </section>
+    </section> 
     <!--====== BANNER PART ENDS ======-->
     <!--====== BOOKING FORM START ======-->
    <!--  <section class="booking-form">
@@ -296,19 +392,20 @@
                     <div class="block-text">
                         <div class="section-title mb-20">
                             <span class="title-tag">Take a tour</span>
-                            <h2>Discover Our Underground.</h2>
+                            <h2>SAPHIRA SERVICES</h2>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.
+                            Travel services are services offered by travel agents, including passenger transport services, air travel services, car hire services, road transport services, rail transport services, sea transport services, booking and reservation of travel services, travel ticket reservation services, tourist travel information.
                         </p>
                         <a href="#" class="main-btn btn-filled mt-40">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
-    </section> 
+    </section>
+
+
+
     <!--====== TEXT BLOCK END ======-->
     <!--====== CORE FEATURES START ======-->
     <!-- <section class="core-feature-section bg-white pt-115 pb-115">
@@ -944,15 +1041,45 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+        function  OpenDropDown(event){
+            
+        }
+
+    </script>
+
     <!--====== FOOTER END ======-->
 
     <!--====== jquery js ======-->
     <!--====== jquery js ======-->
+
+    
+
+
     <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+     <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="assets/js/vendor/jquery.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+
     <!--====== Bootstrap js ======-->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <!-- <script src="assets/js/umd/popper.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script> -->
     <!--====== Slick js ======-->
     <script src="assets/js/slick.min.js"></script>
     <!--====== Isotope js ======-->
@@ -974,6 +1101,9 @@
     <script src="assets/js/map.js"></script>
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+
 </body>
 
 </html>
