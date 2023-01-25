@@ -454,6 +454,12 @@ select {
     box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.4);
 }
 
+
+.testimonial-section{
+    background: #fab26099;
+}
+
+
 .section-title span.title-tag {
     font-size: 14px;
     font-weight: 700;
@@ -475,7 +481,7 @@ select {
 }
 
 .section-title h2 {
-    font-size: 80px;
+    font-size: 45px;
     line-height: 1.125;
     letter-spacing: -1px;
 }
@@ -857,8 +863,9 @@ header.header-absolute {
     left: 0;
     width: 100%;
     z-index: 99;
-    background-color: transparent;
-    top: 35px;
+    /*background-color: transparent;*/
+    background: #272624;
+    /*top: 35px;*/
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -1734,6 +1741,7 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
 }
 
 /*=======  Off canvas menu  =======*/
+
 .offcanvas-wrapper {
     position: fixed;
     width: 450px;
@@ -1775,7 +1783,6 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
 }
 
 .offcanvas-wrapper .offcanvas-widget {
-    /*background-color: #fff;*/
     background-color: #272624;
     width: 100%;
     height: 100vh;
@@ -1796,9 +1803,6 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
 .offcanvas-wrapper .offcanvas-widget .widget {
     margin-bottom: 50px;
     font-size: 14px;
-    /* Search Widget */
-    /* Nav Widget */
-    /* Social Link */
 }
 
 .offcanvas-wrapper .offcanvas-widget .widget .widget-title {
@@ -3748,7 +3752,7 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background-color: #fdb467;
+    background-color: #272624;
     text-align: center;
     line-height: 50px;
     color: #fff;
