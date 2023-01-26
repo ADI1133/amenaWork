@@ -158,7 +158,7 @@ var mirandaDoc;
 				autoplaySpeed: 5000,
 				dots: false,
 				fade: true,
-				arrows: false,
+				arrows: true,
 				prevArrow:
 					'<div class="slick-arrow prev-arrow"><i class="fal fa-arrow-left"></i></div>',
 				nextArrow:
