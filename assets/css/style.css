@@ -881,7 +881,7 @@ header.header-absolute {
 }
 
 header .nav-container .toggle {
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1065,8 +1065,16 @@ header .nav-container .menu-items ul li a {
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
     header .nav-container .menu-items ul li a {
         font-size: 14px;
-        padding: 0 10px;
+        padding: 0 3px;
     }
+    .header .nav-container .toggle{
+        margin-right: 9px !important;
+    }
+
+    header .nav-container .site-logo img{
+        max-width: 210px;
+    }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -2211,7 +2219,8 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
 
 .banner-area.banner-style-two .single-banner,
 .banner-area.banner-style-three .single-banner {
-    height: 950px;
+    /*height: 950px;*/
+    height: 100vh;
     position: relative;
     z-index: 1;
     overflow: hidden;
@@ -2297,7 +2306,7 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
     transform: translateY(-50%);
     height: 50px;
     width: 50px;
-    background: #fff;
+    background: #fab2608c;
     line-height: 50px;
     text-align: center;
     font-size: 17px;
@@ -2305,6 +2314,9 @@ header.sticky-header.sticky-active.header-two .header-info .item .title {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     z-index: 9;
+    color: #fff;
+
+    border-radius: 50%;
 }
 
 .banner-area .slick-arrow:hover {
